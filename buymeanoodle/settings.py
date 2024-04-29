@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-89ca0g7s!*ho7tg%u5gtl#1dyld8@gw-nzi^v&*)c+wstvz1qk
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [https://buymeanoodle-pukq.onrender.com]
+ALLOWED_HOSTS = ['buymeanoodle-pukq.onrender.com']
 
 LOGIN_URL = 'creator:login'
 LOGIN_REDIRECT_URL = 'core:index'
